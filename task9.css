@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+.backgr{
+	background-image: url(images1/background_pic.png);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	color: white;
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+.elements{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 68px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin-right: 45px;
+}
+
+.menu ul li:last-child{
+	margin-right: 0;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.text h3{
+	font-weight: 700;
+	font-size: 74px;
+	margin: 0;
+	margin-top: 130px;
+}
+
+.text p{
+	font-weight: 400;
+	font-size: 28px;
+	margin: 0;
+	margin-top: 27px;
+}
+
+button{
+	border: none;
+	background: #2091F9;
+	border-radius: 35px;
+	color: white;
+	font-size: 20px;
+	padding: 16px 58px;
+	margin: 0;
+	margin-top: 90px;
+	margin-bottom: 54px;
+}
+
+.position{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.position h4{
+	margin: 0;
+	font-weight: 400;
+	font-size: 48px;
+	margin-top: 305px;
+	margin-bottom: 27px;
+}
+
+.position p{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 28px;
+}
+
+.all_cards{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 58px;
+	margin: 0;
+	margin-top: 98px;
+}
+
+.card{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 249px;
+}
+
+.card h5{
+	margin: 0;
+	font-weight: 700;
+	font-size: 20px;
+	height: 56px;
+	text-align: center;
+	margin-top: 28px;
+}
+
+.card p{
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 132px;
+}
+
+@media (max-width: 1203px){
+	.container{
+		width: 416px;
+	}
+
+	.backgr{
+		background-image: url(images1/background_mobile.png);
+		height: 100%;
+	}
+
+	.menu, .apps{
+		display: none;
+	}
+
+	.menu_img{
+		background-image: url(images1/menu.svg);
+		background-repeat: no-repeat;
+        height: 33px;
+        width: 20px;
+        margin-top: 30px;
+	}
+
+	.text h3{
+		font-weight: 400;
+		font-size: 48px;
+		width: 356px;
+	}
+
+	.text p{
+		width: 280px;
+	}
+}
