@@ -166,6 +166,53 @@ video{
 	height: 349px;
 }
 
+.for_email{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 234px;
+}
+
+.email_bold{
+	margin: 0;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#email_thin{
+	margin: 0;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+#email_text{
+	margin: 0;
+	font-weight: 400;
+	font-size: 48px;
+	margin-top: 17px;
+	margin-bottom: 34px;
+}
+
+.input_email input{
+	background: #F4F4F4;
+	border: 1px solid #E8E8E8;
+	border-radius: 39px;
+	padding: 19px 39px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.all_clients{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 125px;
+}
+
+.clients{
+	display: flex;
+	flex-direction: row;
+}
+
 form{
 	display: flex;
 	flex-direction: column;
@@ -202,6 +249,7 @@ form textarea{
 	margin-top: 45px;
 	padding: 20px;
 	border: none;
+	font-family: Montserrat;
 }
 
 .form_map{
@@ -242,7 +290,8 @@ form textarea{
 iframe{
 	width: 516px;
 	height: 323px;
-	margin-left: 170px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .app{
@@ -313,6 +362,37 @@ iframe{
 		align-items: center;
 	}
 
+	.for_email{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.input_email{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.input_email input, .input_email button{
+		margin: 0;
+		margin-bottom: 12px;
+	}
+
+	.email_bold:first-child{
+		margin-top: 95px;
+	}
+
+	#email_thin{
+		margin-bottom: 34px;
+	}
+
+	.clients:last-child{
+		display: none;
+	}
+
+	.clients{
+		flex-direction: column;
+	}
+
 }
 
 
@@ -366,6 +446,15 @@ iframe{
 
 	.reverse{
 		flex-direction: column-reverse;
+	}
+
+	.for_email img{
+		width: 500px;
+	}
+
+	.pos1 img{
+		width: 500px;
+		height: 300px;
 	}
 
 }
