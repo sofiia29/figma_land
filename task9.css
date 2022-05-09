@@ -302,6 +302,14 @@ iframe{
 	margin-left: 0;
 }
 
+.position-left{
+	align-items: start !important;
+}
+
+.menu_img{
+	display: none;
+}
+
 @media (max-width: 1202px){
 	.container{
 		width: 700px;
